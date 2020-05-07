@@ -48,8 +48,8 @@ $data = select_comments($dbh);
     }
 }?>
 <form action="view.php" method="POST">
-<p>お名前*<input type="text" name="name">(50文字まで)</p>
-<p>ひとこと*<textarea name="comment" rows="4" cols="40"></textarea>(200文字まで)</p>
+<p>お名前(必須)<input type="text" name="name">(50文字まで)</p>
+<p>コメント(必須)<textarea name="comment" rows="4" cols="40"></textarea>(200文字まで)</p>
 <input type="submit" value="書き込む">
 </form>
 </body>
